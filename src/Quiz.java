@@ -32,7 +32,21 @@ public class Quiz {
     public String evaluate(){
         String vida = "";
         int hi = process();
-        if (hi )
+        if (hi > 0 && hi <= 10){
+            vida = "You will die at 40. Good luck :/";
+        }
+        if (hi > 10 && hi <= 20){
+            vida = "You will die at 50. Good luck :/";
+        }
+        if (hi > 20 && hi <= 30){
+            vida = "You will die at 60. Good luck :/";
+        }
+        if (hi > 30 && hi <= 40){
+            vida = "You will die at 70. Good luck :/";
+        }
+        if (hi > 40 && hi <= 50){
+            vida = "You will never die. Remember to never tell the US government and recreate your identity every 4 years.";
+        }
     }
 
 
