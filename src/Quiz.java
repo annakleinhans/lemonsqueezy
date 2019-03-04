@@ -36,17 +36,18 @@ public class Quiz {
             vida = "You will die at 40. Good luck :/";
         }
         if (hi > 10 && hi <= 20){
-            vida = "You will die at 50. Good luck :/";
+            vida = "You will die at 50. Start your midlife crisis early.";
         }
         if (hi > 20 && hi <= 30){
-            vida = "You will die at 60. Good luck :/";
+            vida = "You will die at 60. Have fun meeting your grandchildren!";
         }
         if (hi > 30 && hi <= 40){
-            vida = "You will die at 70. Good luck :/";
+            vida = "You will die at 70. Enjoy retirement big fella.";
         }
         if (hi > 40 && hi <= 50){
-            vida = "You will never die. Remember to never tell the US government and recreate your identity every 4 years.";
+            vida = "You will never die. Remember to never tell the US government and recreate your identity every 23.4 years.";
         }
+        return vida;
     }
 
 
